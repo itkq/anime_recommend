@@ -29,7 +29,7 @@ def main():
         if os.path.exists(path_of(tid)):
             print('skip')
             continue
-        time.sleep(0.3)
+        time.sleep(1.5)
         anime_info = get_anime_info(tid)
         save_anime_info(tid, anime_info)
 
